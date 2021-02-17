@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+}
+body{
+    min-height: 58.1pc;
+    background-image: url(/assets/background.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}

@@ -1,0 +1,15 @@
+.accordion-button:not(.collapsed) {
+    color: #9198e5;
+    background-color: #932771;
+    box-shadow: 5px 5px 5px black;
+}
+.accordion-button {
+    color:whitesmoke;
+    background-color: #932771;
+    box-shadow: 5px 5px 5px black;
+}
+.accordion-collapse {
+    color:whitesmoke;
+    background-color: rgba(0, 0, 0, 0.42);
+
+}

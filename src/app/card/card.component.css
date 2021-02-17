@@ -1,0 +1,41 @@
+#tarjeta{
+    background:linear-gradient(#000, #f60866);
+    height: 25%;
+    width: 75%;
+}
+
+#button{
+    position: relative;
+    top: -124px;
+    left: 40%;
+}
+#active  {
+    height: 200px;
+    width: 210px;
+    background-size: cover;
+    background-color: rgba(0,0,0,0);
+    background-image:url(/assets/klipartz.com.png) ;
+    position: relative;
+    margin-left: 50%;
+    animation-name: roll;
+    animation-duration: 4s;
+    animation-delay: 0.9s;
+
+}
+#active #footer{
+    display: none;
+}
+#active #cardBody{
+    display: none;
+}
+@keyframes roll{
+  0%   {left:0px; top:0px;}
+  12.5%  {left:200px; top:0px;}
+  25%  {left:400px; top:0px;}
+  37.5%  {left:400px; top:400px;}
+  50%  {left:-200px; top:400px;}
+  62.5%  {left:-200px; top:200px;}
+  75%  { left:-200px; top:100px;}
+  87.5%  {left:0px; top:400px;}
+  100% {left:0px; top:0px;}
+}

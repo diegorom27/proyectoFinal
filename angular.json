@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/card/animacion.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -93,7 +95,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/card/animacion.js"
+            ]
           }
         },
         "lint": {

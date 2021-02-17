@@ -1,0 +1,16 @@
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button mb-3" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+ posicion" aria-expanded="true" aria-controls="collapseOne">
+          Referencia
+        </button>
+      </h2>
+      <div [attr.id]="posicion" class="accordion-collapse collapse show mb-2" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <p class="infP">{{lugar}}</p>
+            <p class="infP">{{cargo}}</p>
+            <p class="infP">{{periodo}}</p>
+        </div>
+      </div>
+    </div>
+</div>

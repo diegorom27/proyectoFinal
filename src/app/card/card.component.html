@@ -1,0 +1,15 @@
+<audio controls id="sonido" hidden><source type="audio/mpeg" src="/assets/pacman-song.mp3"></audio>
+<div class="card mx-auto border-top-0 rounded  p-3" id="tarjeta">
+    <div class="card-body" id="cardBody">
+        <ul class="list-group h-25 text-center" id="lista">
+            <li class="list-group-item bg-transparent border-0 h-25 mb-2">Nombre : {{name}} </li>
+            <li class="list-group-item bg-transparent border-0 h-25 mb-2">Sexo: {{sexo}} </li>
+            <li class="list-group-item bg-transparent border-0 h-25 mb-2">{{direccion}}</li>
+            <li class="list-group-item bg-transparent border-0 h-25 mb-2">Tel : {{telefono}}</li>
+            <li class="list-group-item bg-transparent border-0 h-25 mb-2">Email : {{correo}}</li>
+        </ul>
+    </div>
+    <div class="card-footer mt-0" id="footer">
+        <button (click)="onClick()" class="btn btn-outline-dark" id="button">Go nuts</button>
+    </div> 
+</div>
