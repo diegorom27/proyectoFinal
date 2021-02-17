@@ -14,6 +14,5 @@ function funcionAnimacion (){
             }
             tarjeta.id=color2;
         }
-        alert("¡Eres como Hitler solo que Hitler al menos se preocupaba por Alemania!"); 
 }
 
